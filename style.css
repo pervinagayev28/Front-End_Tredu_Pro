@@ -15,13 +15,19 @@ body {
 
 }
 
-
-
-.contanier {
-    width: 100%;
+#contanier {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    align-items: center;
+    width: 100%;
+}
+
+.contanier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .navbar {
@@ -29,7 +35,8 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 20px 150px;
+    max-width: 1000px;
+    padding: 20px 50px;
 }
 
 .links {
@@ -181,8 +188,12 @@ a {
 .section3sp {
     background-color: #F6F6F6;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
+    width: 100%;
+
 }
 
 .forHeaderS1 {
@@ -225,9 +236,7 @@ a {
     gap: 50px;
 }
 
-.pCourse {
-    width: 100%;
-}
+
 
 .course {
     display: flex;
@@ -271,4 +280,132 @@ a {
     background-color: 888888;
     border: 0;
     box-shadow: 10px 10px 10px #888888;
+}
+
+
+
+
+/* footer */
+
+#footer {
+    color: white;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #16144a;
+    align-items: start;
+    justify-content: center;
+}
+
+
+
+.fDivLogos {
+    /* background-color: #16144a;
+    display: flex;
+    height: 50px;
+    width: 20%;
+    max-width :10px; */
+}
+
+.fDiv1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+
+}
+
+
+.fDiv2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+
+
+}
+
+.fDiv3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+
+}
+
+
+
+.input {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+
+}
+
+.btnInput {
+    display: flex;
+    padding: 0px;
+    color: white;
+    max-width: 300px;
+    width: 100%;
+
+}
+
+.btnf {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0079E9;
+    border: 0px;
+    max-width: 100px;
+    width: 100%;
+    color: white;
+
+}
+
+#fDiv4 {
+    background-color: #eae9ff;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.fDiv4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.af {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+
+
+.fh1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.fDivLogos img {
+    width: 25px !important;
+    height: 25px !important;
 }
