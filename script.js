@@ -1,3 +1,5 @@
+// index page
+
 let temp = 0;
 
 
@@ -38,8 +40,6 @@ document.querySelector('#btnLeft').addEventListener('click', () => {
 
 
 
-
-
 function ChangeContent(element) {
     let i = 1;
     element.forEach(course => {
@@ -49,3 +49,7 @@ function ChangeContent(element) {
     });
 
 }
+
+
+
+
